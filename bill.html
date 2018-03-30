@@ -1,0 +1,976 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-86740736-2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-86740736-2');
+  </script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Making a Law in Myanmar</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Padauk" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container" align="center">
+  <div class="row">
+    <div class="col"><a href="index.html" class="btn btn-link" align="left">Back to Home</a></div>
+    <div class="col"><a href="bill-burmese.html" class="btn btn-link" align="rignt">ဗမာစာ</a></div>
+</div>
+</div>
+
+<div class="container-fluid">
+<div class="jumbotron">
+  <h1 class="display-3">Making a Law in Myanmar</h1>
+
+  <p class="lead">Having no clue how a law is made in Myanmar?</p>
+  <hr class="my-4">
+  <p>Then, this interactive explainer is for you. You just need to answer a few questions to navigate the stage of the law you're tracking.</p>
+  <p class="lead">
+    <a onclick="learn_more_function()" class="btn btn-primary btn-lg" href="#learn-more" role="button">Learn More</a>
+  </p>
+</div> 
+</div>
+
+<div class="container-fluid" align="center">
+
+  <p>Let's start here! Do you know who drafted the bill?</p>
+  <p class="lead">
+    <a onclick="govt_function()" class="btn btn-primary btn-lg" href="#government" role="button">Government Bill</a>
+    <a onclick="private_function()" class="btn btn-primary btn-lg" href="#private" role="button">Private Bill</a>
+  </p>
+</div>
+
+<div id="government" class="container-fluid" align="center" style="display:none";>
+<div align="right">
+  <hr>
+  <span class="badge badge-pill badge-success">1</span>
+  <span class="badge badge-pill badge-success">2</span>
+  <span class="badge badge-pill badge-success">3</span>
+  <span class="badge badge-pill badge-success">4</span>
+  <br>
+  <br>
+</div>
+<div class="card bg-light mb-3" style="max-width: 40rem;">
+  <div class="card-header">Drafting</div>
+  <div class="card-body">
+    <h4 class="card-title">Line Ministry</h4>
+    <p class="card-text">Line ministry prepare the earliest draft of the legislation.</p>
+  </div>
+</div>
+
+<div class="card bg-light mb-3" style="max-width: 40rem;">
+  <div class="card-header">Drafting</div>
+  <div class="card-body">
+    <h4 class="card-title">Attorney-General Office</h4>
+    <p class="card-text">The attorney-general office reviews the draft prepared by the line ministry to check the format and consistency with existing laws.</p>
+  </div>
+</div>
+
+<div class="card bg-light mb-3" style="max-width: 40rem;">
+  <div class="card-header">Cabinet Review</div>
+  <div class="card-body">
+    <h4 class="card-title">Cabinet</h4>
+    <p class="card-text">The cabinet considers the draft prepared by the line ministry and reviewed by the attorney-general office.</p>
+  </div>
+</div>
+
+<div class="card bg-light mb-3" style="max-width: 40rem;">
+  <div class="card-header">Submission</div>
+  <div class="card-body">
+    <h4 class="card-title">Combined House Speaker</h4>
+    <p class="card-text">The combined house speaker receives the bill from the government and decides which house to start debating the draft. The draft text is available in government newspapers at this stage.</p>
+     <p>Which house the combined house speaker chooses to start?</p>
+  <p class="lead">
+    <a onclick="govt_lower_function()" class="btn btn-primary btn-lg" href="#pyithu" role="button">Lower House (Pyithu Hluttaw)</a>
+    <p> Or </p>
+    <a onclick="govt_upper_function()" class="btn btn-primary btn-lg" href="#amyotha" role="button">Upper House (Amyotha Hluttaw)</a>
+  </p>
+  </div>
+</div>
+
+<div id="government-tips" class="list-group" style="max-width: 40rem;">
+  <a href="#government" class="list-group-item list-group-item-action flex-column align-items-start active">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Tips</h5>
+    </div>
+    <p class="mb-1" align="left">
+    By government, we also means other national agencies. The parliament can’t deny the bill submitted by the government.</p>  
+
+    <p class="mb-1" align="left">We could know that the drafting of the bill has started. The ministry could possibly inform the press that the bill will be submitted to the parliament soon. It sometimes makes headlines.</p>
+
+    <p class="mb-1" align="left">The following porcess doesn't cover three major legislations submitted by the government which goes directly to the combined house: the budget bill, the national plan bill and the taxation bill.</p>
+  </a>
+  <a href="#government" class="list-group-item list-group-item-action flex-column align-items-start">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Tricks</h5>
+    </div>
+    <p class="mb-1" align="left">Unfortunately, we could not see a draft at this stage. The attorney-general and cabinet could review the draft for a long long time. Still it could end within the cabinet.</p>
+  </a>
+</div>
+<br>
+</div>
+
+<div id="private", class="container-fluid" align="center" style="display:none";>
+<div align="right">
+  <hr>
+  <span class="badge badge-pill badge-success">1</span>
+  <span class="badge badge-pill badge-success">2</span>
+  <br>
+  <br>
+</div>
+
+  <div class="card bg-light mb-3" style="max-width: 40rem;">
+  <div class="card-header">Drafting</div>
+  <div class="card-body">
+    <h4 class="card-title">MP (or Committee)</h4>
+    <p class="card-text">MP (or committee) drafts the bill and submits to the combined house speaker 30 days before the start of a regular session.</p>
+  </div>
+  </div>
+
+  <div class="card bg-light mb-3" style="max-width: 40rem;">
+  <div class="card-header">Submission</div>
+  <div class="card-body">
+    <h4 class="card-title">Combined House Speaker</h4>
+    <p class="card-text">The combined house speaker receives the bill from MP. The speaker decides whether it would be accepted and which house to start debating the draft. At this stage, the bill is available in government newspapers.</p>
+    <p>Which house the combined house speaker chooses to start?</p>
+    <p class="lead">
+    <a class="btn btn-primary btn-lg" onclick="private_lower_function()" href="#pyithu_private" role="button">Lower House (Pyithu Hluttaw)</a>
+    <p> Or </p>
+    <a class="btn btn-primary btn-lg" onclick="private_upper_function()" href="#amyotha_private" role="button">Upper House (Amyotha Hluttaw)</a>
+  </p>
+  </div>
+  </div>
+
+  <div id="private-tips" class="list-group" style="max-width: 40rem;">
+  <a href="#private" class="list-group-item list-group-item-action flex-column align-items-start active">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Tips</h5>
+    </div>
+    <p class="mb-1" align="left">
+    The parliament put the acceptance of the private bill submitted by the parliament (parliamentary committees in some cases) to the vote. </p>  
+  </a>
+</div>
+<br>
+</div>
+
+<div id="amyotha_private", class="container-fluid" align="center" style="display:none";>
+<div align="right">
+  <hr>
+  <span class="badge badge-pill badge-success">1</span>
+  <br>
+  <br>
+</div>
+  <div class="card bg-light mb-3" style="max-width: 40rem;">
+  <div class="card-header">Acceptance of Bill</div>
+  <div class="card-body">
+    <h4 class="card-title">Upper House</h4>
+    <p class="card-text">Upper House MPs debate the acceptance of the private bill and decide by vote.</p>
+    <p>Does Upper House accept the bill?</p>
+  <p class="lead">
+    <a onclick="govt_upper_function()" class="btn btn-primary btn-lg" href="#amyotha" role="button">Yes</a>
+    <a onclick="end_function()" class="btn btn-primary btn-lg" href="#end" role="button">No</a>
+  </p>
+  </div>
+  </div>
+</div>
+</div>
+
+<div id="pyithu_private", class="container-fluid" align="center" style="display:none";>
+<div align="right">
+  <hr>
+  <span class="badge badge-pill badge-success">1</span>
+  <br>
+  <br>
+</div>
+  <div class="card bg-light mb-3" style="max-width: 40rem;">
+  <div class="card-header">Acceptance of Bill</div>
+  <div class="card-body">
+    <h4 class="card-title">Lower House</h4>
+    <p class="card-text">Lower House MPs debate the acceptance of the private bill and decide by vote.</p>
+    <p>Does Lower House accept the bill?</p>
+  <p class="lead">
+    <a onclick="govt_lower_function()" class="btn btn-primary btn-lg" href="#amyotha" role="button">Yes</a>
+    <a onclick="end_function()" class="btn btn-primary btn-lg" href="#end" role="button">No</a>
+  </p>
+  </div>
+  </div>
+
+</div>
+
+<div id="end", class="container-fluid" align="center" style="display:none";>
+<div align="right">
+  <hr>
+  <span class="badge badge-pill badge-danger">1</span>
+  <br>
+  <br>
+</div>
+  <div class="card text-white bg-danger mb-3" style="max-width: 40rem;">
+  <div class="card-header">The End of the Bill</div>
+  <div class="card-body">
+    <h4 class="card-title">Somewhere in a dustbin</h4>
+    <p class="card-text">The desperate attempt by MP (or committee in some cases) to make this a law has ended here! Good luck, next time!</p>
+  </div>
+  </div>
+  <div>
+  <a onclick="restart()" class="btn btn-primary btn-lg" href="#" role="button">Restart</a>
+</div>
+</div>
+
+
+<div id="amyotha", class="container-fluid" align="center" style="display:none";>
+<div align="right">
+  <hr>
+  <span class="badge badge-pill badge-success">1</span>
+  <span class="badge badge-pill badge-success">2</span>
+  <span class="badge badge-pill badge-success">3</span>
+  <span class="badge badge-pill badge-success">4</span>
+  <br>
+  <br>
+</div>
+  <div class="card bg-light mb-3" style="max-width: 40rem;">
+  <div class="card-header">Committee Review</div>
+  <div class="card-body">
+    <h4 class="card-title">Upper House Bill Committee</h4>
+    <p class="card-text">Upper House Bill Committee reviews the bill and submit a report to the plenary session.</p>
+  </div>
+  </div>
+
+  <div class="card bg-light mb-3" style="max-width: 40rem;">
+  <div class="card-header">Debate</div>
+  <div class="card-body">
+    <h4 class="card-title">Upper House</h4>
+    <p class="card-text">MPs propose and debate amendments to the bill. The vote on each amendment happens at this stage to pass the bill.</p>
+  </div>
+  </div>
+
+  <div class="card bg-light mb-3" style="max-width: 40rem;">
+  <div class="card-header">Committee Review</div>
+  <div class="card-body">
+    <h4 class="card-title">Lower House Bill Committee</h4>
+    <p class="card-text">Lower House Bill Committee reviews the bill referred to the Lower House by the Upper House with/withtout amendments and submit a report to the plenary session.</p>
+  </div>
+  </div>
+
+  <div class="card bg-light mb-3" style="max-width: 40rem;">
+  <div class="card-header">Debate</div>
+  <div class="card-body">
+    <h4 class="card-title">Lower House</h4>
+    <p class="card-text">MPs propose and debate amendments to the bill. The vote on each amendment happens at this stage to pass the bill.</p>
+  </div>
+
+  <p>Does Lower House agree with Upper House-approved draft?</p>
+  <p class="lead">
+    <a onclick= "yes_function()" class="btn btn-primary btn-lg" href="#president" role="button">Yes</a>
+    <a onclick="pyithu_no_function()" class="btn btn-primary btn-lg" href="#pyithu-no" role="button">No</a>
+  </p>
+  </div>
+</div>
+
+<div id="pyithu", class="container-fluid" align="center" style="display:none";>
+<div align="right">
+  <hr>
+  <span class="badge badge-pill badge-success">1</span>
+  <span class="badge badge-pill badge-success">2</span>
+  <span class="badge badge-pill badge-success">3</span>
+  <span class="badge badge-pill badge-success">4</span>
+  <br>
+  <br>
+</div>
+  <div class="card bg-light mb-3" style="max-width: 40rem;">
+  <div class="card-header">Committee Review</div>
+  <div class="card-body">
+    <h4 class="card-title">Lower House Bill Committee</h4>
+    <p class="card-text">Lower House Bill Committee reviews the bill and submit a report to the plenary session.</p>
+  </div>
+  </div>
+
+  <div class="card bg-light mb-3" style="max-width: 40rem;">
+  <div class="card-header">Debate</div>
+  <div class="card-body">
+    <h4 class="card-title">Lower House</h4>
+    <p class="card-text">MPs propose and debate amendments to the bill. The vote on each amendment happens at this stage to pass the bill.</p>
+  </div>
+  </div>
+
+  <div class="card bg-light mb-3" style="max-width: 40rem;">
+  <div class="card-header">Committee Review</div>
+  <div class="card-body">
+    <h4 class="card-title">Upper House Bill Committee</h4>
+    <p class="card-text">Upper House Bill Committee reviews the bill referred to the Lower House by the Upper House with/withtout amendments and submit a report to the plenary session.</p>
+  </div>
+  </div>
+
+  <div class="card bg-light mb-3" style="max-width: 40rem;">
+  <div class="card-header">Debate</div>
+  <div class="card-body">
+    <h4 class="card-title">Upper House</h4>
+    <p class="card-text">MPs propose and debate amendments to the bill. The vote on each amendment happens at this stage to pass the bill.</p>
+  </div>
+  <p>Does Upper House agree with Lower House-approved draft?</p>
+  <p class="lead">
+    <a onclick= "yes_function()" class="btn btn-primary btn-lg" href="#president" role="button">Yes</a>
+    <a onclick="amyotha_no_function()" class="btn btn-primary btn-lg" href="#amyotha-no" role="button">No</a>
+  </p>
+  </div>
+</div>
+
+
+<div id="pyithu-no" class="container-fluid" align="center" style="display:none";>
+<div align="right">
+  <hr>
+  <span class="badge badge-pill badge-success">1</span>
+  <span class="badge badge-pill badge-success">2</span>
+  <br>
+  <br>
+</div>
+  <div class="card bg-light mb-3" style="max-width: 40rem;">
+  <div class="card-header">Committee Review, Again!</div>
+  <div class="card-body">
+    <h4 class="card-title">Upper House Bill Committee</h4>
+    <p class="card-text">Upper House Bill Committee reviews the amendments made/disagreed by the Lower House.</p>
+  </div>
+  </div>
+
+  <div class="card bg-light mb-3" style="max-width: 40rem;">
+  <div class="card-header">Debate</div>
+  <div class="card-body">
+    <h4 class="card-title">Upper House</h4>
+    <p class="card-text">MPs debate the disagreed amendments between two houses. The vote on each amendment happens at this stage to pass the bill.</p>
+  </div>
+
+  <p>Still Disagree?</p>
+  <p class="lead">
+    <a onclick= "house_disagree_function()" class="btn btn-primary btn-lg" href="#house-disagree" role="button">Yes</a>
+    <a onclick="yes_function()" class="btn btn-primary btn-lg" href="#president" role="button">No</a>
+  </p>
+  </div>
+
+</div>
+
+<div id="amyotha-no" class="container-fluid" align="center" style="display:none";>
+<div align="right">
+  <hr>
+  <span class="badge badge-pill badge-success">1</span>
+  <span class="badge badge-pill badge-success">2</span>
+  <br>
+  <br>
+</div>
+  <div class="card bg-light mb-3" style="max-width: 40rem;">
+  <div class="card-header">Committee Review, Again!</div>
+  <div class="card-body">
+    <h4 class="card-title">Lower House Bill Committee</h4>
+    <p class="card-text">Lower House Bill Committee reviews the amendments made/disagreed by the Upper House.</p>
+  </div>
+  </div>
+
+  <div class="card bg-light mb-3" style="max-width: 40rem;">
+  <div class="card-header">Debate</div>
+  <div class="card-body">
+    <h4 class="card-title">Lower House</h4>
+    <p class="card-text">MPs debate the disagreed amendments between two houses. The vote on each amendment happens at this stage to pass the bill.</p>
+  </div>
+  <p>Still Disagree?</p>
+  <p class="lead">
+    <a onclick= "house_disagree_function()" class="btn btn-primary btn-lg" href="#house-disagree" role="button">Yes</a>
+    <a onclick="yes_function()" class="btn btn-primary btn-lg" href="#president" role="button">No</a>
+  </p>
+  </div>
+</div>
+
+<div id="house-disagree", class="container-fluid" align="center" style="display:none";>
+<div align="right">
+  <hr>
+  <span class="badge badge-pill badge-success">1</span>
+  <span class="badge badge-pill badge-success">2</span>
+  <br>
+  <br>
+</div>
+  <div class="card bg-light mb-3" style="max-width: 40rem;">
+  <div class="card-header">Committee Review, Again!</div>
+  <div class="card-body">
+    <h4 class="card-title">Joint Bill Committee</h4>
+    <p class="card-text">Joint Bill Committee reviews the disagreements between two houses and vote on each disagreement.</p>
+  </div>
+  </div>
+
+  <div class="card bg-light mb-3" style="max-width: 40rem;">
+  <div class="card-header">Debate</div>
+  <div class="card-body">
+    <h4 class="card-title">Combined House</h4>
+    <p class="card-text">MPs debate the disagreed amendments between two houses. The vote on each amendment happens at this stage to pass the bill.</p>
+  </div>
+</div>
+</div>
+
+<div id="president", class="container-fluid" align="center" style="display:none";>
+<div align="right">
+  <hr>
+  <span class="badge badge-pill badge-success">1</span>
+  <br>
+</div>
+  <div class="card bg-light mb-3" style="max-width: 40rem;">
+  <div class="card-header">Presidential Consideration</div>
+  <div class="card-body">
+    <h4 class="card-title">The President</h4>
+    <p class="card-text">The Myanmar president is not allowed to veto the legislation passed by the parliament. But the president can provide comments if he/she doesn't agree with the bill. The president has 14 days upon receipt of the bill to return it back to the parliament with comments.</p>
+    <p>Does the president agree with the bill?</p>
+  <p class="lead">
+    <a onclick="president_yes_function()" class="btn btn-primary btn-lg" href="#president-yes" role="button">Yes</a>
+    <a onclick="president_no_function()" class="btn btn-primary btn-lg" href="#president-no" role="button">No</a>
+  </p>
+  </div>
+  </div>
+</div>
+
+<div id="president-no", class="container-fluid" align="center" style="display:none";>
+<div align="right">
+  <hr>
+  <span class="badge badge-pill badge-success">1</span>
+  <span class="badge badge-pill badge-success">2</span>
+  <span class="badge badge-pill badge-success">3</span>
+  <br>
+  <br>
+</div>
+  <div class="card bg-light mb-3" style="max-width: 40rem;">
+  <div class="card-header">Committee Review, Again! And Again!</div>
+  <div class="card-body">
+    <h4 class="card-title">Joint Bill Committee</h4>
+    <p class="card-text">Joint Bill Committee reviews the comments made by the president.</p>
+  </div>
+  </div>
+
+  <div class="card bg-light mb-3" style="max-width: 40rem;">
+  <div class="card-header">Debate</div>
+  <div class="card-body">
+    <h4 class="card-title">Combined House</h4>
+    <p class="card-text">MPs debate the amendments made by the president. The vote on each amendment happens at this stage to pass the bill.</p>
+  </div>
+  </div>
+
+  <div class="card bg-light mb-3" style="max-width: 40rem;">
+  <div class="card-header">Presidential Approval</div>
+  <div class="card-body">
+    <h4 class="card-title">The President</h4>
+    <p class="card-text">The president this time has to sign the bill passed by the parliament within seven days.</p>
+    <p>Does the president sign the bill into law?</p>
+  <p class="lead">
+    <a onclick="president_yes_function()" class="btn btn-primary btn-lg" href="#president-yes" role="button">Yes</a>
+    <a onclick="promulgation_function()" class="btn btn-primary btn-lg" href="#promulgate" role="button">No</a>
+  </p>
+  </div>
+  </div>
+
+  </div>
+
+</div>
+
+<div id="president-yes", class="container-fluid" align="center" style="display:none";>
+<div align="right">
+  <hr>
+  <span class="badge badge-pill badge-success">1</span>
+  <br>
+  <br>
+</div>
+  <div class="card text-white bg-success mb-3" style="max-width: 40rem;">
+  <div class="card-header">Bill becomes Law</div>
+  <div class="card-body">
+    <h4 class="card-title">The President</h4>
+    <p class="card-text">The president signs the bill into law.</p>
+  </div>
+  </div>
+  <div>
+  <a onclick="restart()" class="btn btn-primary btn-lg" href="#" role="button">Restart</a>
+  </div>
+</div>
+
+<div id="promulgate", class="container-fluid" align="center" style="display:none";>
+<div align="right">
+  <hr>
+  <span class="badge badge-pill badge-success">1</span>
+  <br>
+  <br>
+</div>
+  <div class="card text-white bg-success mb-3" style="max-width: 40rem;" style="display:none";>
+  <div class="card-header">Bill becomes Law</div>
+  <div class="card-body">
+    <h4 class="card-title">The Parliament</h4>
+    <p class="card-text">The parliament promulgates the law if the president didn't return the bill with comments within 14 days or the president didn't sign it into the law within seven days after the parliament heard his/her comments.</p>
+  </div>
+  </div>
+  <div>
+  <a onclick="restart()" class="btn btn-primary btn-lg" href="#" role="button">Restart</a>
+  </div>
+</div>
+
+</div>
+
+<div id="learn-more" class="footer" style="display:none";>
+  <div class="container-fluid" align="left">
+  <hr class="my-4">
+  <p>We illustrate the law making process of Myanmar’s union parliament taking the Constitution and parliamentary rules and regulations as a reference. This process doesn’t cover three major pieces of legislation which the government directly submit to the combined house once a year. They are the budget bill, the national plan bill and the taxation bill. It does cover all other pieces of legislation which pass through the parliament.</p>
+  </div>
+</div>
+
+<div id="footer" class="footer">
+  <div class="container-fluid" align="right">
+  <hr class="my-4">
+  <p>Just another interactive by <a href=”http://www.theananda.org”>Ananda Data!</a></p>
+  <p><a href=”http://www.theananda.org”>Ananda Data</a> is a nonprofit in Myanmar working for open political knowledge.</p>
+
+</div>
+</div>
+
+</body>
+
+<script>
+
+function govt_function() {
+    var x = document.getElementById("government");
+    var y = document.getElementById("private");
+    var l = document.getElementById("pyithu");
+    var m = document.getElementById("amyotha");
+    var j = document.getElementById("pyithu_private");
+    var k = document.getElementById("amyotha_private");
+    var b = document.getElementById("pyithu-no");
+    var c = document.getElementById("amyotha-no");
+    var d = document.getElementById("house-disagree");
+    var e = document.getElementById("president");
+    var f = document.getElementById("president-yes");
+    var g = document.getElementById("president-no");
+    var h = document.getElementById("promulgate");
+    var i = document.getElementById("end");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        y.style.display = "none";
+        b.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+        e.style.display = "none";
+        f.style.display = "none";
+        g.style.display = "none";
+        h.style.display = "none";
+        i.style.display = "none";
+        j.style.display = "none";
+        k.style.display = "none";
+        l.style.display = "none";
+        m.style.display = "none";
+
+
+    } else if (x.style.display === "block"){
+        x.style.display = "block";
+        y.style.display = "none";
+        b.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+        e.style.display = "none";
+        f.style.display = "none";
+        g.style.display = "none";
+        h.style.display = "none";
+        i.style.display = "none";
+        j.style.display = "none";
+        k.style.display = "none";
+        l.style.display = "none";
+        m.style.display = "none";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function private_function() {
+    var x = document.getElementById("private");
+    var y = document.getElementById("government");
+    var l = document.getElementById("pyithu");
+    var m = document.getElementById("amyotha");
+    var j = document.getElementById("pyithu_private");
+    var k = document.getElementById("amyotha_private");
+    var b = document.getElementById("pyithu-no");
+    var c = document.getElementById("amyotha-no");
+    var d = document.getElementById("house-disagree");
+    var e = document.getElementById("president");
+    var f = document.getElementById("president-yes");
+    var g = document.getElementById("president-no");
+    var h = document.getElementById("promulgate");
+    var i = document.getElementById("end");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        y.style.display = "none";
+        b.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+        e.style.display = "none";
+        f.style.display = "none";
+        g.style.display = "none";
+        h.style.display = "none";
+        i.style.display = "none";
+        j.style.display = "none";
+        k.style.display = "none";
+        l.style.display = "none";
+        m.style.display = "none";
+
+    } else if (x.style.display === "block"){
+        x.style.display = "block";
+        y.style.display = "none";
+        b.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+        e.style.display = "none";
+        f.style.display = "none";
+        g.style.display = "none";
+        h.style.display = "none";
+        i.style.display = "none";
+        j.style.display = "none";
+        k.style.display = "none";
+        l.style.display = "none";
+        m.style.display = "none";
+    } else {
+        x.style.display = "none";
+    }
+} 
+
+function govt_lower_function() {
+    var x = document.getElementById("pyithu");
+    var y = document.getElementById("amyotha");
+    var j = document.getElementById("pyithu_private");
+    var k = document.getElementById("amyotha_private");
+    var b = document.getElementById("pyithu-no");
+    var c = document.getElementById("amyotha-no");
+    var d = document.getElementById("house-disagree");
+    var e = document.getElementById("president");
+    var f = document.getElementById("president-yes");
+    var g = document.getElementById("president-no");
+    var h = document.getElementById("promulgate");
+    var i = document.getElementById("end");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        y.style.display = "none";
+        b.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+        e.style.display = "none";
+        f.style.display = "none";
+        g.style.display = "none";
+        h.style.display = "none";
+        i.style.display = "none";
+        j.style.display = "none";
+        k.style.display = "none";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function govt_upper_function() {
+    var x = document.getElementById("amyotha");
+    var y = document.getElementById("pyithu");
+    var j = document.getElementById("pyithu_private");
+    var k = document.getElementById("amyotha_private");
+    var b = document.getElementById("pyithu-no");
+    var c = document.getElementById("amyotha-no");
+    var d = document.getElementById("house-disagree");
+    var e = document.getElementById("president");
+    var f = document.getElementById("president-yes");
+    var g = document.getElementById("president-no");
+    var h = document.getElementById("promulgate");
+    var i = document.getElementById("end");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        y.style.display = "none";
+        b.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+        e.style.display = "none";
+        f.style.display = "none";
+        g.style.display = "none";
+        h.style.display = "none";
+        i.style.display = "none";
+        j.style.display = "none";
+        k.style.display = "none";
+
+    } else {
+        x.style.display = "none";       
+    }
+} 
+
+function private_lower_function() {
+    var x = document.getElementById("pyithu_private");
+    var y = document.getElementById("amyotha_private");
+    var b = document.getElementById("pyithu-no");
+    var c = document.getElementById("amyotha-no");
+    var d = document.getElementById("house-disagree");
+    var e = document.getElementById("president");
+    var f = document.getElementById("president-yes");
+    var g = document.getElementById("president-no");
+    var h = document.getElementById("promulgate");
+    var i = document.getElementById("end");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        y.style.display = "none";
+        b.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+        e.style.display = "none";
+        f.style.display = "none";
+        g.style.display = "none";
+        h.style.display = "none";
+        i.style.display = "none";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function private_upper_function() {
+    var x = document.getElementById("amyotha_private");
+    var y = document.getElementById("pyithu_private");
+    var b = document.getElementById("pyithu-no");
+    var c = document.getElementById("amyotha-no");
+    var d = document.getElementById("house-disagree");
+    var e = document.getElementById("president");
+    var f = document.getElementById("president-yes");
+    var g = document.getElementById("president-no");
+    var h = document.getElementById("promulgate");
+    var i = document.getElementById("end");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        y.style.display = "none";
+        b.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+        e.style.display = "none";
+        f.style.display = "none";
+        g.style.display = "none";
+        h.style.display = "none";
+        i.style.display = "none";
+    } else {
+        x.style.display = "none";
+    }
+} 
+
+function end_function() {
+    var x = document.getElementById("end");
+    var y = document.getElementById("pyithu_private");
+    var z = document.getElementById("amyotha_private");
+    var b = document.getElementById("pyithu-no");
+    var c = document.getElementById("amyotha-no");
+    var d = document.getElementById("house-disagree");
+    var e = document.getElementById("president");
+    var f = document.getElementById("president-yes");
+    var g = document.getElementById("president-no");
+    var h = document.getElementById("promulgate");
+
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        y.style.display = "none";
+        z.style.display = "none";
+        b.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+        e.style.display = "none";
+        f.style.display = "none";
+        g.style.display = "none";
+        h.style.display = "none";
+    } else {
+        x.style.display = "none";
+    }
+} 
+
+function yes_function() {
+    var x = document.getElementById("president");
+    var y = document.getElementById("pyithu-no");
+    var z = document.getElementById("amyotha-no");
+    var a = document.getElementById("house-disagree");
+    var c = document.getElementById("president-yes");
+    var d = document.getElementById("president-no");
+    var e = document.getElementById("promulgate");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        y.style.display = "none";
+        z.style.display = "none";
+        a.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+        e.style.display = "none";
+    } else {
+        x.style.display = "none";
+    }
+} 
+
+function pyithu_no_function() {
+    var x = document.getElementById("pyithu-no");
+    var y = document.getElementById("president");
+    var z = document.getElementById("amyotha-no");
+    var a = document.getElementById("house-disagree");
+    var c = document.getElementById("president-yes");
+    var d = document.getElementById("president-no");
+    var e = document.getElementById("promulgate");
+
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        y.style.display = "none";
+        z.style.display = "none";
+    	a.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+        e.style.display = "none";
+    } else {
+        x.style.display = "none";        
+    }
+} 
+
+function amyotha_no_function() {
+    var x = document.getElementById("amyotha-no");
+    var y = document.getElementById("president");
+    var z = document.getElementById("pyithu-no");
+    var a = document.getElementById("house-disagree");
+    var c = document.getElementById("president-yes");
+    var d = document.getElementById("president-no");
+    var e = document.getElementById("promulgate");
+
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        y.style.display = "none";
+        z.style.display = "none";
+        a.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+        e.style.display = "none";
+
+    } else {
+        x.style.display = "none";
+
+    }
+} 
+
+function house_disagree_function() {
+    var x = document.getElementById("house-disagree");
+    var y = document.getElementById("president");
+    var a = document.getElementById("president-yes");
+    var b = document.getElementById("president-no");
+    var c = document.getElementById("promulgate");
+
+
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        y.style.display = "block";
+        a.style.display = "none";
+        b.style.display = "none";
+        c.style.display = "none";
+    } else {
+        x.style.display = "none";        
+    }
+}
+
+function president_yes_function() {
+    var x = document.getElementById("president-yes");
+    var y = document.getElementById("president-no");
+
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        y.style.display = "none";
+
+    } else {
+        x.style.display = "none";
+    }
+} 
+
+function president_no_function() {
+    var x = document.getElementById("president-no");
+    var y = document.getElementById("president-yes");
+
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        y.style.display = "none";
+
+    } else {
+        x.style.display = "none";
+    }
+}  
+
+function promulgation_function() {
+    var x = document.getElementById("promulgate");
+    var y = document.getElementById("president-yes");
+
+    if (x.style.display === "none") {
+        x.style.display = "block";
+       	y.style.display = "none";
+
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function restart() {
+    var x = document.getElementById("government");
+    var y = document.getElementById("private");
+    var l = document.getElementById("pyithu");
+    var m = document.getElementById("amyotha");
+    var j = document.getElementById("pyithu_private");
+    var k = document.getElementById("amyotha_private");
+    var b = document.getElementById("pyithu-no");
+    var c = document.getElementById("amyotha-no");
+    var d = document.getElementById("house-disagree");
+    var e = document.getElementById("president");
+    var f = document.getElementById("president-yes");
+    var g = document.getElementById("president-no");
+    var h = document.getElementById("promulgate");
+    var i = document.getElementById("end");
+    if (x.style.display === "none") {
+        x.style.display = "none";
+        y.style.display = "none";
+        b.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+        e.style.display = "none";
+        f.style.display = "none";
+        g.style.display = "none";
+        h.style.display = "none";
+        i.style.display = "none";
+        j.style.display = "none";
+        k.style.display = "none";
+        l.style.display = "none";
+        m.style.display = "none";
+
+    } else if (x.style.display === "block"){
+        x.style.display = "none";
+        y.style.display = "none";
+        b.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+        e.style.display = "none";
+        f.style.display = "none";
+        g.style.display = "none";
+        h.style.display = "none";
+        i.style.display = "none";
+        j.style.display = "none";
+        k.style.display = "none";
+        l.style.display = "none";
+        m.style.display = "none";
+    } else {
+        x.style.display = "none";
+    }
+} 
+
+
+function learn_more_function() {
+    var x = document.getElementById("learn-more");
+
+    if (x.style.display === "none") {
+        x.style.display = "block";
+
+    } else {
+        x.style.display = "none";
+    }
+}
+
+</script>
+
+</html>
